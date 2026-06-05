@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-label="NK Logistics">
+  <defs>
+    <linearGradient id="nkBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa6d6"/>
+      <stop offset="0.5" stop-color="#5a8ccb"/>
+      <stop offset="1" stop-color="#396cb4"/>
+    </linearGradient>
+    <linearGradient id="nkBlueLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9cc0e6"/>
+      <stop offset="1" stop-color="#5e92cd"/>
+    </linearGradient>
+  </defs>
+  <!-- N (left half of mark) -->
+  <path d="M40 30 L40 150 L70 150 L70 78 L70 150 L96 150 L96 30 L70 30 L70 96 L70 30 Z" fill="url(#nkBlueLight)"/>
+  <polygon points="40,30 96,30 96,150 70,150 70,72 70,150 40,150" fill="url(#nkBlueLight)"/>
+  <!-- N proper shape -->
+  <polygon points="38,30 64,30 96,108 96,30 122,30 122,150 96,150 64,72 64,150 38,150" fill="url(#nkBlueLight)"/>
+  <!-- K (right half of mark) -->
+  <polygon points="132,30 158,30 158,82 196,30 228,30 182,90 230,150 196,150 158,100 158,150 132,150" fill="url(#nkBlue)"/>
+  <!-- subtle center divider -->
+  <rect x="126" y="28" width="2" height="124" fill="#ffffff" opacity="0.5"/>
+  <!-- LOGISTICS wordmark -->
+  <text x="258" y="112" font-family="'Segoe UI',Arial,sans-serif" font-size="58" font-weight="400" letter-spacing="2" fill="#7c7a7a">LOGISTICS</text>
+</svg>
